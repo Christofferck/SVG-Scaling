@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .svg0 {
+            border: 1px solid blue;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            width: 400px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <svg viewbox='400 200' class='svg0'>
+       <ellipse cx='200' cy='100' rx='190' ry='90' 
+            fill='blue'/>
+        <circle cx='200' cy='100' r='10' 
+            fill='yellow'/>
+    </svg>
+    <p>What is a viewbox? <br>
+        - The viewBox defines the position and dimension, in the user space, of an SVG viewport</p>
+        <br>
+
+    <p>What is a viewport?<br> 
+    - The viewport is the part of the webpage that the we can currently see,
+     The scrollbars move the viewport to show other parts of the webpage.</p>  
+     <br>
+     
+     <p>How do they relate to each other? <br>
+    - They relate to eachother by basicly being being a part of eachother, the viewbox is 
+      important in terms of positioning and dimensions, which is a vital part in what the user sees
+      on the page itself</p>
+    <br>
+
+    <p>How to scale an SVG drawing's appearance on a web page? <br>
+    - We make use of Cx which is the X-axis <br>
+    - We also make use of Cy, which is the Y-axis <br>
+    - Rx defines the x-axis radius <br>
+    - and Ry defines the Y-axis radius <br>
+    - If you can combine all of the four above you should be able to properly scale an SVG on a webpage</p>
+
+    </body>
